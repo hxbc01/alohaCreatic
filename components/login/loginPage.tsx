@@ -7,8 +7,8 @@ import { BsApple } from "react-icons/bs"
 
 export default function Login() {
   return (
-    <div className='flex justify-center mt-16'>
-      <div className='w-1/4 p-1 rounded-3xl bg-white shadow-xl'>
+    <div className='flex justify-center bg-[#F9DFDA] bg-[url("/image/vaccine.svg")]'>
+      <div className='mt-16 mb-16 w-1/4 p-1 rounded-3xl bg-white shadow-xl'>
         <div className='text-center mt-16'>
           <h1 className='font-bold text-2xl mb-2'>User Login</h1>
           <p className='font-normal text-md px-2'>Hey, Enter your details to get sign in to your account</p>
@@ -35,20 +35,20 @@ export default function Login() {
           <h3 className='text-sm font-medium'>-or sign in with-</h3>
         </div>
         <div className='flex flex-row justify-center mt-4 gap-2'>
-          <div className='flex w-auto h-10 border-2 gap-1 px-1 rounded-md cursor-pointer hover:shadows-sm'>
-            <IconContext.Provider value={{ color: "black", className: "mt-2", size:'1.2rem'}}>
+          <div className='flex w-auto h-10 border-2 gap-1 px-1 rounded-md cursor-pointer hover:shadows-sm hover:shadow-md'>
+            <IconContext.Provider value={{ color: "black", className: "mt-2", size: '1.2rem' }}>
               <BsGoogle />
               <h2 className='mt-2 text-sm font-semibold'>Google</h2>
             </IconContext.Provider>
           </div>
-          <div className='flex w-auto h-10 border-2 gap-1 px-1 rounded-md cursor-pointer'>
-            <IconContext.Provider value={{ color: "black", className: 'mt-2', size:'1.2rem' }}>
+          <div className='flex w-auto h-10 border-2 gap-1 px-1 rounded-md cursor-pointer hover:shadow-md'>
+            <IconContext.Provider value={{ color: "black", className: 'mt-2', size: '1.2rem' }}>
               <FaFacebook />
               <h2 className='mt-2 text-sm font-semibold'>Facebook</h2>
             </IconContext.Provider>
           </div>
-          <div className='flex w-auto h-10 border-2 gap-1 px-1 rounded-md cursor-pointer'>
-            <IconContext.Provider value={{ color: "black", className: 'mt-2', size:'1.2rem' }}>
+          <div className='flex w-auto h-10 border-2 gap-1 px-1 rounded-md cursor-pointer hover:shadow-md'>
+            <IconContext.Provider value={{ color: "black", className: 'mt-2', size: '1.2rem' }}>
               <BsApple />
               <h2 className='mt-2 text-sm font-semibold'>Apple ID</h2>
             </IconContext.Provider>
