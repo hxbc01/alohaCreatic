@@ -1,0 +1,39 @@
+.container {
+    padding: 4px;
+    border-radius: 1000px;
+    border: 1px solid #f3c7bd;
+    overflow: hidden;
+    
+    position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.container:focus-within {
+  width: 250px;
+}
+.container:focus-within > .btn {
+  pointer-events: all;
+}
+
+.input {
+  padding: 0.1rem 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  appearance: none;
+
+  position: absolute;
+  right: 0;
+}
+.btn {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #f3c7bd;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  
+  pointer-events: none;
+  margin-right: auto;
+}
