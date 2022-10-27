@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import mediation from '../../public/image/mediation.svg'
+import { CgArrowLongRight } from "react-icons/cg";
+import { IconContext } from 'react-icons';
 
 export default function Corousel() {
   return (
@@ -14,8 +16,11 @@ export default function Corousel() {
               on spending time in the outdors and
               observating wild animals and plant
             </p>
-            <div className='mt-6 font-medium'>
-              <h2 className='cursor-pointer'>Explore More</h2>
+            <div className='flex gap-2 mt-6 font-medium cursor-pointer'>
+              <h2 className='mt-2'>Explore More</h2>
+              <IconContext.Provider value={{className: "mt-1", size: '2.3rem'}}>
+                <CgArrowLongRight />
+              </IconContext.Provider>
             </div>
           </div>
           <div>
