@@ -1,28 +1,38 @@
 .container {
-    padding: 4px;
-    border-radius: 1000px;
-    border: 1px solid #f3c7bd;
-    overflow: hidden;
-    
-    position: relative;
+  padding: 4px;
+  border-radius: 1000px;
+  border: 1px solid #f3c7bd;
+  overflow: hidden;
+  position: relative;
   transition: all 0.5s ease-in-out;
+  
 }
-.container:focus-within {
+
+.container:hover {
   width: 250px;
+
 }
-.container:focus-within > .btn {
+
+.container:hover>.btn {
   pointer-events: all;
+  width: 32px;
+  animation-delay: 1s
+  
+
 }
+
+
 
 .input {
   padding: 0.1rem 0.5rem;
   outline: none;
   font-size: 1rem;
   appearance: none;
-
+  transition: 0.4s;
   position: absolute;
   right: 0;
 }
+
 .btn {
   position: relative;
   z-index: 1;
@@ -33,7 +43,8 @@
   display: grid;
   place-items: center;
   font-size: 1.25rem;
-  
+  transition: 0.4s;
+
   pointer-events: none;
   margin-right: auto;
 }

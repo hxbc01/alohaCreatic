@@ -23,7 +23,7 @@ export default function Login() {
           <div className='w-9/12 h-10 border-2 rounded-md'>
             <input
               className='w-full px-3 py-1.5 rounded-md'
-              type="text"
+              type="password"
               placeholder='passoword' />
           </div>
         </div>
