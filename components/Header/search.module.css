@@ -6,19 +6,19 @@
   position: relative;
   transition: all 0.5s ease-in-out;
   
+  
 }
 
 .container:hover {
   width: 250px;
-
+  animation-delay: 1s
 }
 
 .container:hover>.btn {
   pointer-events: all;
   width: 32px;
-  animation-delay: 1s
+ 
   
-
 }
 
 

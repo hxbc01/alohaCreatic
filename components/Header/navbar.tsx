@@ -16,9 +16,11 @@ export default function Navbar() {
         </div>
         <div>
           <ul className="flex gap-6">
-            <li className="cursor-pointer hover:font-semibold ">Home</li>
-            <li className="cursor-pointer hover:font-semibold ">About</li>
-            <li className="cursor-pointer hover:font-semibold ">Services</li>
+            <li className="cursor-pointer font-semibold ">Home</li>
+            <li className="cursor-pointer font-semibold ">About</li>
+            <li className="cursor-pointer font-semibold ">Services</li>
+            <li className="cursor-pointer font-semibold ">Contact</li>
+            <li className="cursor-pointer font-semibold ">Faq</li>
           </ul>
         </div>
         <div className="flex gap-6">
